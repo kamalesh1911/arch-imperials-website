@@ -1,0 +1,509 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Meta Information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Arch Imperials | Design. Build. Transform.</title>
+
+    <meta name="description"
+          content="Architecture, construction and interior design in Chennai.">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/logo/favicon.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&family=Unbounded:wght@300;500;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =====================================
+         PRELOADER AND CURSOR
+    ====================================== -->
+
+    <div id="pre">
+        <img src="assets/logo/logo.svg" alt="Arch Imperials">
+        <b id="pct">0</b>
+    </div>
+
+    <i id="bar"></i>
+    <div id="cur"></div>
+    <div id="dot"></div>
+
+
+    <!-- =====================================
+         HEADER / NAVIGATION
+    ====================================== -->
+
+    <header id="nav">
+
+        <a href="#home" class="brand">
+            <img src="assets/logo/logo.svg" alt="Arch Imperials logo">
+            <span>Arch Imperials</span>
+        </a>
+
+        <nav id="menu">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#process">Process</a>
+            <a href="#insights">Insights</a>
+            <a href="#contact" class="btn mag">
+                Book consultation
+            </a>
+        </nav>
+
+        <button id="burger" aria-label="Menu">
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- =====================================
+         HERO SECTION
+    ====================================== -->
+
+    <section id="home">
+
+        <canvas id="hero3d"></canvas>
+
+        <div class="hero-t">
+
+            <p class="tag">
+                Architecture · Construction · Interiors
+            </p>
+
+            <h1>
+                Spaces designed to inspire.
+                Quality built to last.
+            </h1>
+
+            <p class="lead">
+                We bring architecture, construction and interior design
+                together, from concept to completion, in Chennai and
+                surrounding areas.
+            </p>
+
+            <div class="row">
+                <a href="#projects" class="btn mag">View projects</a>
+                <a href="#contact" class="btn ghost mag">
+                    Start your project
+                </a>
+            </div>
+
+        </div>
+
+        <div class="hero-s">
+            <b data-n="8">0</b>
+            <span>years of experience</span>
+        </div>
+
+        <p class="hint">
+            Move your cursor to rotate. Watch the wireframe become a building.
+        </p>
+
+    </section>
+
+
+    <!-- =====================================
+         MARQUEE SECTION
+    ====================================== -->
+
+    <div class="marq">
+        <div>
+            Design. Build. Transform. &nbsp;•&nbsp;
+            Residential &amp; Commercial &nbsp;•&nbsp;
+            Luxury in design. Quality in execution.
+            Value in every investment. &nbsp;•&nbsp;
+            Design. Build. Transform.
+        </div>
+    </div>
+
+
+    <!-- =====================================
+         ABOUT SECTION
+    ====================================== -->
+
+    <section id="about" class="wrap split">
+
+        <div class="rv">
+
+            <h2>
+                Bringing visions to life through design and construction
+            </h2>
+
+            <p>
+                Arch Imperials has over 8 years of experience turning
+                ideas into inspiring spaces. We specialise in residential
+                and commercial projects, combining creative architecture,
+                reliable construction and refined interiors.
+            </p>
+
+            <p>
+                We understand each client's vision, deliver personalised
+                design and protect quality at every stage.
+            </p>
+
+            <div class="vm">
+
+                <button class="on"
+                    data-v="To be a trusted and distinguished name in architecture, construction and interiors, creating spaces that inspire, endure and add value to people's lives.">
+                    Vision
+                </button>
+
+                <button
+                    data-v="Transform client visions into meaningful spaces. Balance aesthetics and functionality. Keep quality, precision and transparency in every project. Offer premium design at practical investments. Build lasting relationships on trust.">
+                    Mission
+                </button>
+
+                <p id="vmt">
+                    To be a trusted and distinguished name in architecture,
+                    construction and interiors, creating spaces that inspire,
+                    endure and add value to people's lives.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="imgs rv">
+            <img class="tilt" src="assets/img/villa.svg" alt="Villa render">
+            <img class="tilt sm" src="assets/img/plan.svg" alt="Floor plan">
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         SERVICES SECTION
+    ====================================== -->
+
+    <section id="services" class="wrap">
+
+        <h2>Four disciplines, one team</h2>
+
+        <div class="acc">
+
+            <article class="svc on" style="--i:url(assets/img/plan.svg)">
+                <h3>Architecture &amp; Planning</h3>
+                <ul>
+                    <li>Architectural design and planning</li>
+                    <li>2D floor plans and working drawings</li>
+                    <li>3D elevation and visualisation</li>
+                    <li>Space planning and design development</li>
+                </ul>
+            </article>
+
+            <article class="svc" style="--i:url(assets/img/build.svg)">
+                <h3>Construction</h3>
+                <ul>
+                    <li>Residential and commercial buildings</li>
+                    <li>Structural and civil works</li>
+                    <li>Renovation and remodelling</li>
+                    <li>Turnkey solutions</li>
+                </ul>
+            </article>
+
+            <article class="svc" style="--i:url(assets/img/interior.svg)">
+                <h3>Interior Design</h3>
+                <ul>
+                    <li>Complete home interiors</li>
+                    <li>Modular kitchens</li>
+                    <li>Wardrobes and custom furniture</li>
+                    <li>Office and commercial interiors</li>
+                </ul>
+            </article>
+
+            <article class="svc" style="--i:url(assets/img/fitout.svg)">
+                <h3>Interior Execution</h3>
+                <ul>
+                    <li>Complete fit-outs</li>
+                    <li>Custom cabinetry</li>
+                    <li>Material selection and sourcing</li>
+                    <li>False ceiling and lighting</li>
+                </ul>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         WHY CHOOSE US SECTION
+    ====================================== -->
+
+    <section id="why" class="wrap">
+
+        <h2>Why choose Arch Imperials</h2>
+
+        <div class="grid" id="spot">
+
+            <div class="card">
+                <h3>8+ years</h3>
+                <p>Practical knowledge across design and execution.</p>
+            </div>
+
+            <div class="card">
+                <h3>Integrated services</h3>
+                <p>Architecture, construction and interiors under one team.</p>
+            </div>
+
+            <div class="card">
+                <h3>Personalised designs</h3>
+                <p>Every project built around your needs.</p>
+            </div>
+
+            <div class="card">
+                <h3>Quality craftsmanship</h3>
+                <p>Attention to materials, detailing and finishing.</p>
+            </div>
+
+            <div class="card">
+                <h3>Luxury within reach</h3>
+                <p>Premium aesthetics with thoughtful budgets.</p>
+            </div>
+
+            <div class="card">
+                <h3>Clear communication</h3>
+                <p>Transparent, professionally coordinated projects.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         PROJECTS SECTION
+    ====================================== -->
+
+    <section id="projects" class="wrap">
+
+        <h2>Project categories</h2>
+
+        <!-- Project Filters -->
+        <div class="filt">
+            <button class="on" data-f="all">All</button>
+            <button data-f="lux">Luxury residences</button>
+            <button data-f="res">Residential interiors</button>
+            <button data-f="com">Commercial</button>
+            <button data-f="ret">Retail &amp; showrooms</button>
+        </div>
+
+        <!-- Project Gallery -->
+        <div class="pgrid">
+
+            <figure class="pc tilt"
+                    data-c="lux"
+                    data-d="Villas and independent homes. Replace with your real project.">
+                <img src="assets/img/villa.svg" alt="Luxury residence">
+                <figcaption>Luxury residences</figcaption>
+            </figure>
+
+            <figure class="pc tilt"
+                    data-c="res"
+                    data-d="Apartments and complete home interiors. Replace with your real project.">
+                <img src="assets/img/interior.svg" alt="Residential interiors">
+                <figcaption>Residential interiors</figcaption>
+            </figure>
+
+            <figure class="pc tilt"
+                    data-c="com"
+                    data-d="Offices and business spaces. Replace with your real project.">
+                <img src="assets/img/office.svg" alt="Commercial spaces">
+                <figcaption>Commercial spaces</figcaption>
+            </figure>
+
+            <figure class="pc tilt"
+                    data-c="ret"
+                    data-d="Functional, attractive business environments. Replace with your real project.">
+                <img src="assets/img/showroom.svg" alt="Retail showroom">
+                <figcaption>Retail &amp; showrooms</figcaption>
+            </figure>
+
+        </div>
+
+        <!-- Before and After Comparison -->
+        <div class="ba" id="ba">
+
+            <img src="assets/img/villa.svg" alt="Built">
+
+            <div class="bf">
+                <img src="assets/img/sketch.svg" alt="Concept">
+            </div>
+
+            <i id="bh"></i>
+
+            <span>Concept ⇄ Built. Drag to compare.</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         PROCESS SECTION
+    ====================================== -->
+
+    <section id="process" class="wrap">
+
+        <h2>From first idea to final handover</h2>
+
+        <div class="steps" id="steps"></div>
+
+        <div class="stp">
+            <b id="sn">1</b>
+
+            <div>
+                <h3 id="st"></h3>
+                <p id="sd"></p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         INSIGHTS SECTION
+    ====================================== -->
+
+    <section id="insights" class="wrap">
+
+        <h2>Insights</h2>
+
+        <div class="grid3">
+
+            <a class="card ins" href="#">
+                <img src="assets/img/plan.svg" alt="">
+                <h3>Planning a home before you build</h3>
+            </a>
+
+            <a class="card ins" href="#">
+                <img src="assets/img/build.svg" alt="">
+                <h3>What turnkey construction means</h3>
+            </a>
+
+            <a class="card ins" href="#">
+                <img src="assets/img/fitout.svg" alt="">
+                <h3>Choosing materials that last</h3>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         CONTACT SECTION
+    ====================================== -->
+
+    <section id="contact" class="wrap split">
+
+        <div>
+
+            <h2>Let's create something extraordinary.</h2>
+
+            <p>
+                Planning a dream home, a commercial space or a transformation?
+                Tell us about it.
+            </p>
+
+            <p class="meta">
+                Chennai and surrounding areas<br>
+                Phone: add here · Email: add here · Address: add here
+            </p>
+
+        </div>
+
+        <form id="f">
+
+            <div class="chips">
+                <button type="button">Architecture</button>
+                <button type="button">Construction</button>
+                <button type="button">Interiors</button>
+            </div>
+
+            <input required placeholder="Your name">
+
+            <input required
+                   type="email"
+                   placeholder="Email or phone">
+
+            <label>
+                Project size:
+                <b id="rv">1500</b> sq ft
+
+                <input
+                    type="range"
+                    min="300"
+                    max="10000"
+                    step="100"
+                    value="1500"
+                    id="rg"
+                >
+            </label>
+
+            <textarea placeholder="Tell us about your project"></textarea>
+
+            <button class="btn mag">
+                Request consultation
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- =====================================
+         FOOTER
+    ====================================== -->
+
+    <footer>
+
+        <img src="assets/logo/logo.svg" alt="Arch Imperials">
+
+        <b>ARCH IMPERIALS</b>
+
+        <p>Design. Build. Transform.</p>
+
+    </footer>
+
+
+    <!-- =====================================
+         PROJECT IMAGE LIGHTBOX AND TOAST
+    ====================================== -->
+
+    <dialog id="lb">
+        <img alt="">
+        <p></p>
+        <button>Close</button>
+    </dialog>
+
+    <div id="toast">
+        Thank you. We will contact you soon.
+    </div>
+
+
+    <!-- =====================================
+         JAVASCRIPT
+    ====================================== -->
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
